@@ -21,9 +21,14 @@ public class Exceptions
 	  catch (Exception e)
 		{
 		    if(b==0) System.out.println("Second variable is 0");
-		}
+		}finally 
+	  {
+		    System.out.println("finally block will execute.");
+	  }
 	  System.out.println("Result = " + result);
+	  
 	}
+	
 	
 	
 }
